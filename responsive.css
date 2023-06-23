@@ -1,0 +1,980 @@
+@media (max-width: 1280px) {
+  #section-1 {
+    background-color: #90a955;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .main-intro h1 {
+    font-size: 3.4vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+  .main-intro h1 i {
+    font-size: 2.8vw;
+    position: absolute;
+    /* margin-left: 20px; */
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-intro p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.6vw;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  #about-me {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-block: 5%;
+    background-color: #4f772d;
+  }
+  #about-me h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #about-me > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+  .know-me {
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  .know-me h3 {
+    font-size: 2.4vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+  .know-me p {
+    color: #132a13;
+    font-size: 1.5vw;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .my-skill h3 {
+    font-size: 2.4vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+
+  /* ----------------------------------------------------------------------------------- */
+  #projects h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #projects > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  #contact {
+    overflow: hidden;
+  }
+
+  #contact h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+
+  #contact > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+  .form {
+    margin-inline: auto;
+    width: 600px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #52796f;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------------------------------------------------------- */
+
+  .intro h2 {
+    font-size: 3vw;
+    color: #ecf39e;
+  }
+  .intro p {
+    font-size: 1.2vw;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #ecf39e;
+  }
+  .social-links {
+    font-size: 2.5vw;
+    color: #ecf39e;
+  }
+  #footer > p {
+    margin-top: 50px;
+
+    font-size: 2vw;
+    color: #ecf39e;
+  }
+}
+/* ----------------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  #section-1 {
+    background-color: #90a955;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .main-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  .main-intro h1 {
+    font-size: 4vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+  .main-intro h1 i {
+    font-size: 2.8vw;
+    position: absolute;
+    /* margin-left: 20px; */
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-intro p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.6vw;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  #about-me {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-block: 5%;
+    background-color: #4f772d;
+  }
+  #about-me h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #about-me > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+  .know-me {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  .know-me h3 {
+    font-size: 3vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+  .know-me p {
+    color: #132a13;
+    font-size: 1.9vw;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .skill {
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: #ecf39e;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .my-skill {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  .my-skill h3 {
+    font-size: 2.5vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+
+  /* ----------------------------------------------------------------------------------- */
+  .projects {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 20px;
+  }
+  #projects h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #projects > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+  .projects > img {
+    width: 45%;
+    border: 3px solid #132a13;
+    border-radius: 5px;
+  }
+  .project-details {
+    width: 35%;
+    /* border: 1px solid red; */
+  }
+  .project-details h3 {
+    font-size: 3vw;
+    color: #ecf39e;
+    font-weight: 500;
+  }
+  .project-details p {
+    font-size: 1.3vw;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 15px;
+    color: #ecf39e;
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  #contact {
+    overflow: hidden;
+  }
+
+  #contact h1 {
+    font-size: 3vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+
+  #contact > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #132a13;
+    font-size: 1.8vw;
+  }
+  .form {
+    margin-inline: auto;
+    width: 600px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #52796f;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------------------------------------------------------- */
+
+  .intro h2 {
+    font-size: 3.3vw;
+    color: #ecf39e;
+  }
+  .intro p {
+    font-size: 1.5vw;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #ecf39e;
+  }
+  .social-links {
+    font-size: 3vw;
+    color: #ecf39e;
+  }
+  #footer > p {
+    margin-top: 50px;
+    font-size: 2.2vw;
+    color: #ecf39e;
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ecf39e;
+    width: 200px;
+    height: auto;
+    padding: 20px 40px;
+    top: 100%;
+    right: -200%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .col-2 > a {
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+  }
+  .col-3 {
+    display: block;
+    font-size: 4vw;
+  }
+
+  /* -------------------------------------------------------------------------------------- */
+  #section-1 {
+    background-color: #90a955;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .main-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  .main-intro h1 {
+    font-size: 5vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+  .main-intro h1 i {
+    font-size: 3.2vw;
+    position: absolute;
+    /* margin-left: 20px; */
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-intro p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 2.2vw;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  #about-me {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-block: 5%;
+    background-color: #4f772d;
+  }
+  #about-me h1 {
+    font-size: 5vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #about-me > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 2.2vw;
+  }
+  .about-me-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    gap: 80px;
+  }
+  .know-me {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .know-me h3 {
+    font-size: 3.5vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+  .know-me p {
+    color: #132a13;
+    font-size: 2.2vw;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .skill {
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: #ecf39e;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .my-skill {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .my-skill h3 {
+    font-size: 3.5vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+
+  /* ----------------------------------------------------------------------------------- */
+
+  #projects h1 {
+    font-size: 5vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #projects > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 2.2vw;
+  }
+  .project-box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* width: 80%; */
+    /* border: 1px solid red; */
+  }
+  .projects {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 20px;
+  }
+  .projects > img {
+    width: 45%;
+    border: 3px solid #132a13;
+    border-radius: 5px;
+  }
+  .project-details {
+    width: 60%;
+    /* border: 1px solid red; */
+  }
+  .project-details h3 {
+    font-size: 4vw;
+    color: #ecf39e;
+    font-weight: 500;
+  }
+  .project-details p {
+    font-size: 2vw;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 15px;
+    color: #ecf39e;
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  #contact {
+    overflow: hidden;
+  }
+
+  #contact h1 {
+    font-size: 5vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+
+  #contact > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #132a13;
+    font-size: 2.2vw;
+  }
+  .form {
+    margin-inline: auto;
+    width: 600px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #52796f;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------------------------------------------------------- */
+
+  .intro h2 {
+    font-size: 3.5vw;
+    color: #ecf39e;
+  }
+  .intro p {
+    font-size: 1.8vw;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #ecf39e;
+  }
+  .social-links {
+    font-size: 3vw;
+    color: #ecf39e;
+  }
+  #footer > p {
+    margin-top: 50px;
+    font-size: 2.2vw;
+    color: #ecf39e;
+  }
+}
+/* ----------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .container {
+    padding-inline: 20px;
+  }
+  #navbar {
+    background-color: #ecf39e;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 2;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ecf39e;
+    width: 200px;
+    height: auto;
+    padding: 20px 40px;
+    top: 100%;
+    right: -200%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .col-2 > a {
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+  }
+  .col-3 {
+    display: block;
+    font-size: 5.5vw;
+    cursor: pointer;
+  }
+
+  /* -------------------------------------------------------------------------------------- */
+  #section-1 {
+    background-color: #90a955;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .main-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  .main-intro h1 {
+    font-size: 8vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+  .main-intro h1 i {
+    font-size: 5vw;
+    position: absolute;
+    /* margin-left: 20px; */
+
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .main-intro p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 4vw;
+  }
+  .main-intro > button {
+    font-size: 3.5vw;
+  }
+
+  /* -------------------------------------------------------------------------- */
+  #about-me {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-block: 10%;
+    background-color: #4f772d;
+  }
+  #about-me h1 {
+    font-size: 8vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #about-me > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 3.5vw;
+  }
+  .about-me-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    gap: 80px;
+  }
+  .know-me {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .know-me h3 {
+    font-size: 6vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+  .know-me p {
+    color: #132a13;
+    font-size: 4vw;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .know-me > button {
+    font-size: 3.5vw;
+  }
+  .skill {
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: #ecf39e;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  .my-skill {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  .my-skill h3 {
+    font-size: 6vw;
+    color: #132a13;
+    margin-bottom: 30px;
+  }
+
+  /* ----------------------------------------------------------------------------------- */
+
+  #projects {
+    padding-block: 10%;
+  }
+
+  #projects h1 {
+    font-size: 8vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    /* padding-top: 8%; */
+  }
+
+  #projects > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #132a13;
+    font-size: 3.5vw;
+  }
+  .project-box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    /* width: 80%; */
+    /* border: 1px solid red; */
+  }
+  .projects {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 20px;
+  }
+  .projects > img {
+    width: 70%;
+    border: 3px solid #132a13;
+    border-radius: 5px;
+  }
+  .project-details {
+    width: 70%;
+    /* border: 1px solid red; */
+  }
+  .project-details h3 {
+    font-size: 6vw;
+    color: #ecf39e;
+    font-weight: 500;
+  }
+  .project-details p {
+    font-size: 2.3vw;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-top: 15px;
+    color: #ecf39e;
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  #contact {
+    overflow: hidden;
+  }
+
+  #contact h1 {
+    font-size: 8vw;
+    color: #132a13;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+  }
+
+  #contact > p {
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #132a13;
+    font-size: 3.5vw;
+  }
+  .form {
+    margin-inline: auto;
+    width: 80%;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #52796f;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------------------------------------------------------- */
+  .ft-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    gap: 50px;
+  }
+
+  .intro {
+    text-align: left;
+    width: 80%;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+
+  .intro h2 {
+    font-size: 6vw;
+    color: #ecf39e;
+  }
+  .intro p {
+    font-size: 3vw;
+    font-weight: 200;
+    line-height: 1.3;
+    margin-top: 20px;
+    color: #ecf39e;
+  }
+  .social-links {
+    width: 80%;
+    font-size: 5vw;
+    color: #ecf39e;
+  }
+  .links-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #footer > p {
+    margin-top: 50px;
+    font-size: 3vw;
+    color: #ecf39e;
+  }
+}
