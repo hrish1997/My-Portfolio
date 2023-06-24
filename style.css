@@ -15,32 +15,32 @@ a {
 .primary {
   padding: 15px 0px;
   /* color: rgb(188, 188, 188); */
-  color: #ecf39e;
+  color: #051923;
   font-weight: 600;
   font-size: 0.9rem;
-  background-color: #31572c;
+  background-color: #5b8cff;
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .primary:hover {
-  background-color: #ecf39e;
-  color: black;
+  background-color: #5b8cff;
+  color: #051923;
   scale: 1.1;
 }
 .container {
   padding-inline: 80px;
 }
 .active {
-  border-bottom: 2.5px solid #31572c;
+  border-bottom: 2.5px solid #5b8cff;
   scale: 1.2;
   color: #132a13;
 }
 
 /* Navbar */
 #navbar {
-  background-color: #ecf39e;
+  background-color: #edf2fb;
   position: fixed;
   display: flex;
   align-items: center;
@@ -65,14 +65,14 @@ a {
 .col-1 > h2 {
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
-  color: #132a13;
+  color: #051923;
 }
 .col-2 {
   display: flex;
   gap: 30px;
 }
 .col-2 > a {
-  color: #31572c;
+  color: #051923;
   font-size: 14px;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
@@ -84,7 +84,7 @@ a {
 .col-2 > a.active {
   border-bottom: 2.5px solid #31572c;
   scale: 1.2;
-  color: #132a13;
+  color: #051923;
 }
 .col-3 {
   display: none;
@@ -98,7 +98,7 @@ a {
 /* -------------------------------------------------------------------- */
 
 #section-1 {
-  background-color: #90a955;
+  background-color: #e2eafc;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -109,7 +109,7 @@ a {
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  background-color: #31572c;
+  background-color: #5b8cff;
   border-radius: 5px;
   top: 50%;
   left: 0%;
@@ -120,11 +120,11 @@ a {
   font-size: 25px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  color: #90a955;
+  color: #051923;
 }
 .social-media-link > i:hover {
   scale: 1.2;
-  color: #ecf39e;
+  color: #abc4ff;
 }
 
 .main-intro {
@@ -136,7 +136,7 @@ a {
 }
 .main-intro h1 {
   font-size: 3rem;
-  color: #132a13;
+  color: #051923;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   position: relative;
@@ -159,7 +159,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #132a13;
+  color: #051923;
   font-size: 22px;
 }
 .main-intro > button {
@@ -167,11 +167,11 @@ a {
 }
 .main-intro > button > a {
   text-decoration: none;
-  color: #ecf39e;
+  color: #051923;
   padding: 15px 50px;
 }
 .main-intro > button:hover > a {
-  color: #132a13;
+  color: #051923;
 }
 #animated_arrow {
   border: 1px solid #132a13;
@@ -184,7 +184,7 @@ a {
   bottom: 8%;
   left: 50%;
   font-size: 36px;
-  color: #132a13;
+  color: #051923;
   animation-name: slideDown;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -223,7 +223,7 @@ a {
 }
 #profile {
   position: absolute;
-  background-color: #6a994e;
+  background-color: #5b8cff;
   width: 300px;
   height: 400px;
   top: 100%;
@@ -238,10 +238,10 @@ a {
 
 #profile > i {
   float: right;
-  border: 1px solid darkgreen;
+  border: 1px solid #abc4ff;
   border-radius: 2px;
   cursor: pointer;
-  color: #31572c;
+  color: #051923;
   padding: 2px;
 }
 .main-box {
@@ -259,27 +259,27 @@ a {
   font-size: 26px;
   display: flex;
   align-items: center;
-  color: #132a13;
+  color: #051923;
   transition: all 0.3s ease;
 }
 .tech-box > i:hover {
   scale: 1.1;
-  color: #ecf39e;
+  color: #abc4ff;
 }
 .tech-box > i > span {
   font-size: 14px;
 }
 .main-box > img {
-  border: 5px solid darkgreen;
+  border: 3px solid #051923;
   border-radius: 20px;
 }
 .cv-btn {
   width: 100px;
   padding: 5px 30px;
   border-radius: 5px;
-  border: 1px solid darkgreen;
-  background-color: #90a955;
-  color: #132a13;
+  border: 1px solid #051923;
+  background-color: #abc4ff;
+  color: #051923;
   display: flex;
   align-items: center;
   gap: 2px;
@@ -288,16 +288,16 @@ a {
 }
 .cv-btn:hover {
   scale: 1.1;
-  background-color: #ecf39e;
-  color: #31572c;
+  background-color: #ccdbfd;
+  color: #051923;
 }
 #profile > h2 {
   margin-top: 15px;
-  color: #132a13;
+  color: #051923;
 }
 #profile > p {
   margin-top: 5px;
-  color: #132a13;
+  color: #051923;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -306,12 +306,12 @@ a {
   width: 100%;
   height: auto;
   padding-block: 5%;
-  background-color: #4f772d;
+  background-color: #d7e3fc;
 }
 
 #about-me h1 {
   font-size: 3rem;
-  color: #132a13;
+  color: #051923;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   position: relative;
@@ -326,7 +326,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #132a13;
+  color: #051923;
   font-size: 22px;
 }
 
@@ -347,11 +347,11 @@ a {
 }
 .know-me h3 {
   font-size: 2rem;
-  color: #132a13;
+  color: #051923;
   margin-bottom: 30px;
 }
 .know-me p {
-  color: #132a13;
+  color: #051923;
   font-size: 22px;
   margin-bottom: 18px;
   line-height: 1.5;
@@ -361,14 +361,15 @@ a {
 }
 .know-me > p > a {
   text-decoration: none;
-  color: #ecf39e;
+  color: #5b8cff;
+  font-weight: 700;
 }
 .know-me > button {
   margin-top: 15px;
 }
 .know-me > button > a {
   text-decoration: none;
-  color: #ecf39e;
+  color: #051923;
   padding: 15px 50px;
 }
 .know-me > button:hover > a {
@@ -382,13 +383,13 @@ a {
 }
 .my-skill h3 {
   font-size: 2rem;
-  color: #132a13;
+  color: #051923;
   margin-bottom: 30px;
 }
 .skill {
   display: inline-flex;
   padding: 10px 30px;
-  background-color: #ecf39e;
+  background-color: #7fa6ff;
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 3px;
@@ -396,8 +397,8 @@ a {
 }
 .skill:hover {
   scale: 1.1;
-  background-color: #132a13;
-  color: #ecf39e;
+  background-color: #c1d3fe;
+  color: #051923;
 }
 /* ------------------------------------------------------------------------------------ */
 
@@ -406,11 +407,11 @@ a {
   width: 100%;
   height: auto;
   padding-block: 5%;
-  background-color: #31572c;
+  background-color: #ccdbfd;
 }
 #projects h1 {
   font-size: 3rem;
-  color: #132a13;
+  color: #051923;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   position: relative;
@@ -425,7 +426,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #132a13;
+  color: #051923;
   font-size: 22px;
 }
 .project-box {
@@ -466,13 +467,13 @@ a {
   border-radius: 5px;
 }
 .project-details > button:hover > a {
-  color: #ecf39e;
+  color: #051923;
   scale: 1.2;
-  background-color: #132a13;
+  background-color: #7fa6ff;
 }
 .project-details h3 {
   font-size: 2.5vw;
-  color: #ecf39e;
+  color: #051923;
   font-weight: 500;
 }
 .project-details p {
@@ -480,10 +481,10 @@ a {
   font-weight: 300;
   line-height: 1.3;
   margin-top: 15px;
-  color: #ecf39e;
+  color: #051923;
 }
 .secondary {
-  background-color: #ecf39e;
+  background-color: #5b8cff;
   padding: 10px 0px;
   margin-top: 20px;
   font-size: 16px;
@@ -498,14 +499,14 @@ a {
 #contact {
   width: 100%;
   height: auto;
-  background-color: #84a98c;
+  background-color: #c1d3fe;
   padding-block: 80px;
   text-align: center;
 }
 
 #contact h1 {
   font-size: 3rem;
-  color: #132a13;
+  color: #051923;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   position: relative;
@@ -516,7 +517,7 @@ a {
   margin-inline: auto;
   line-height: 1.3;
   margin-top: 20px;
-  color: #132a13;
+  color: #051923;
   font-size: 22px;
 }
 
@@ -527,14 +528,14 @@ a {
   /* border: 1px solid red; */
   text-align: left;
   padding: 20px 40px;
-  background-color: #52796f;
+  background-color: #7fa6ff;
   border-radius: 10px;
 }
 .form h5 {
   font-size: 20px;
   font-weight: 600;
   margin-top: 20px;
-  color: #ecf39e;
+  color: #051923;
 }
 #name,
 #email {
@@ -571,11 +572,11 @@ a {
 }
 .form > button > a {
   text-decoration: none;
-  color: #ecf39e;
+  color: #051923;
   padding: 15px 50px;
 }
 .form > button:hover > a {
-  color: #132a13;
+  color: #051923;
 }
 
 /* -------------------------------------------------------------------------------------- */
@@ -584,7 +585,7 @@ a {
   padding-block: 80px;
   width: 100%;
   height: auto;
-  background-color: #132a13;
+  background-color: #abc4ff;
   text-align: center;
 }
 .ft-container {
@@ -599,17 +600,17 @@ a {
 }
 .intro h2 {
   font-size: 36px;
-  color: #ecf39e;
+  color: #051923;
 }
 .intro p {
   font-size: 16px;
   line-height: 1.3;
   margin-top: 20px;
-  color: #ecf39e;
+  color: #051923;
 }
 .social-links {
   font-size: 26px;
-  color: #ecf39e;
+  color: #051923;
 }
 .links-box {
   margin-top: 20px;
@@ -622,13 +623,13 @@ a {
 }
 .links-box > i:hover {
   scale: 1.2;
-  color: #84a98c;
+  color: #d7e3fc;
 }
 
 #footer > p {
   margin-top: 50px;
   font-size: 26px;
-  color: #ecf39e;
+  color: #051923;
 }
 #footer > p > a {
   text-decoration: none;

@@ -1,13 +1,11 @@
 @media (max-width: 1280px) {
   #section-1 {
-    background-color: #90a955;
     height: 100vh;
     width: 100%;
     position: relative;
   }
   .main-intro h1 {
     font-size: 3.4vw;
-    color: #132a13;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -32,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.6vw;
   }
 
@@ -42,11 +40,9 @@
     width: 100%;
     height: auto;
     padding-block: 5%;
-    background-color: #4f772d;
   }
   #about-me h1 {
     font-size: 3vw;
-    color: #132a13;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -61,7 +57,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
     font-size: 1.8vw;
   }
   .know-me {
@@ -72,25 +67,25 @@
   }
   .know-me h3 {
     font-size: 2.4vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
   .know-me p {
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.5vw;
     margin-bottom: 18px;
     line-height: 1.5;
   }
   .my-skill h3 {
     font-size: 2.4vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
 
   /* ----------------------------------------------------------------------------------- */
   #projects h1 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -105,7 +100,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.8vw;
   }
 
@@ -117,7 +112,7 @@
 
   #contact h1 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -128,7 +123,7 @@
     margin-inline: auto;
     line-height: 1.3;
     margin-top: 20px;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.8vw;
   }
   .form {
@@ -138,7 +133,7 @@
     /* border: 1px solid red; */
     text-align: left;
     padding: 20px 40px;
-    background-color: #52796f;
+    /* background-color: #52796f; */
     border-radius: 10px;
   }
 
@@ -146,29 +141,29 @@
 
   .intro h2 {
     font-size: 3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .intro p {
     font-size: 1.2vw;
     line-height: 1.3;
     margin-top: 20px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .social-links {
     font-size: 2.5vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   #footer > p {
     margin-top: 50px;
 
     font-size: 2vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 }
 /* ----------------------------------------------------------------------------------- */
 @media (max-width: 1024px) {
   #section-1 {
-    background-color: #90a955;
+    /* background-color: #90a955; */
     height: 100vh;
     width: 100%;
     position: relative;
@@ -184,7 +179,7 @@
   }
   .main-intro h1 {
     font-size: 4vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -209,7 +204,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.6vw;
   }
 
@@ -219,11 +214,11 @@
     width: 100%;
     height: auto;
     padding-block: 5%;
-    background-color: #4f772d;
+    /* background-color: #4f772d; */
   }
   #about-me h1 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -238,7 +233,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.8vw;
   }
   .know-me {
@@ -249,11 +244,11 @@
   }
   .know-me h3 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
   .know-me p {
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.9vw;
     margin-bottom: 18px;
     line-height: 1.5;
@@ -261,7 +256,7 @@
   .skill {
     display: inline-flex;
     padding: 10px 30px;
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
@@ -275,7 +270,7 @@
   }
   .my-skill h3 {
     font-size: 2.5vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
 
@@ -292,7 +287,7 @@
   }
   #projects h1 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -307,7 +302,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.8vw;
   }
   .projects > img {
@@ -321,7 +316,7 @@
   }
   .project-details h3 {
     font-size: 3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
     font-weight: 500;
   }
   .project-details p {
@@ -329,7 +324,7 @@
     font-weight: 300;
     line-height: 1.3;
     margin-top: 15px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 
   /* ---------------------------------------------------------------------------------------- */
@@ -340,7 +335,7 @@
 
   #contact h1 {
     font-size: 3vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -351,7 +346,7 @@
     margin-inline: auto;
     line-height: 1.3;
     margin-top: 20px;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 1.8vw;
   }
   .form {
@@ -361,7 +356,7 @@
     /* border: 1px solid red; */
     text-align: left;
     padding: 20px 40px;
-    background-color: #52796f;
+    /* background-color: #52796f; */
     border-radius: 10px;
   }
 
@@ -369,22 +364,22 @@
 
   .intro h2 {
     font-size: 3.3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .intro p {
     font-size: 1.5vw;
     line-height: 1.3;
     margin-top: 20px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .social-links {
     font-size: 3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   #footer > p {
     margin-top: 50px;
     font-size: 2.2vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 }
 /* ------------------------------------------------------------------------------------- */
@@ -393,7 +388,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     width: 200px;
     height: auto;
     padding: 20px 40px;
@@ -415,7 +410,7 @@
 
   /* -------------------------------------------------------------------------------------- */
   #section-1 {
-    background-color: #90a955;
+    /* background-color: #90a955; */
     height: 100vh;
     width: 100%;
     position: relative;
@@ -431,7 +426,7 @@
   }
   .main-intro h1 {
     font-size: 5vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -456,7 +451,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 2.2vw;
   }
 
@@ -466,11 +461,11 @@
     width: 100%;
     height: auto;
     padding-block: 5%;
-    background-color: #4f772d;
+    /* background-color: #4f772d; */
   }
   #about-me h1 {
     font-size: 5vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -485,7 +480,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 2.2vw;
   }
   .about-me-box {
@@ -506,11 +501,11 @@
   }
   .know-me h3 {
     font-size: 3.5vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
   .know-me p {
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 2.2vw;
     margin-bottom: 18px;
     line-height: 1.5;
@@ -518,7 +513,7 @@
   .skill {
     display: inline-flex;
     padding: 10px 30px;
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
@@ -532,7 +527,7 @@
   }
   .my-skill h3 {
     font-size: 3.5vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
 
@@ -540,7 +535,7 @@
 
   #projects h1 {
     font-size: 5vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -555,7 +550,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 2.2vw;
   }
   .project-box {
@@ -590,7 +585,7 @@
   }
   .project-details h3 {
     font-size: 4vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
     font-weight: 500;
   }
   .project-details p {
@@ -598,7 +593,7 @@
     font-weight: 300;
     line-height: 1.3;
     margin-top: 15px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 
   /* ---------------------------------------------------------------------------------------- */
@@ -609,7 +604,7 @@
 
   #contact h1 {
     font-size: 5vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -620,7 +615,7 @@
     margin-inline: auto;
     line-height: 1.3;
     margin-top: 20px;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 2.2vw;
   }
   .form {
@@ -630,7 +625,7 @@
     /* border: 1px solid red; */
     text-align: left;
     padding: 20px 40px;
-    background-color: #52796f;
+    /* background-color: #52796f; */
     border-radius: 10px;
   }
 
@@ -638,22 +633,22 @@
 
   .intro h2 {
     font-size: 3.5vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .intro p {
     font-size: 1.8vw;
     line-height: 1.3;
     margin-top: 20px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .social-links {
     font-size: 3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   #footer > p {
     margin-top: 50px;
     font-size: 2.2vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 }
 /* ----------------------------------------------------------------------------------- */
@@ -662,7 +657,7 @@
     padding-inline: 20px;
   }
   #navbar {
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     position: fixed;
     display: flex;
     align-items: center;
@@ -677,7 +672,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     width: 200px;
     height: auto;
     padding: 20px 40px;
@@ -700,7 +695,7 @@
 
   /* -------------------------------------------------------------------------------------- */
   #section-1 {
-    background-color: #90a955;
+    /* background-color: #90a955; */
     height: 100vh;
     width: 100%;
     position: relative;
@@ -717,7 +712,7 @@
   }
   .main-intro h1 {
     font-size: 8vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -742,7 +737,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 4vw;
   }
   .main-intro > button {
@@ -755,11 +750,11 @@
     width: 100%;
     height: auto;
     padding-block: 10%;
-    background-color: #4f772d;
+    /* background-color: #4f772d; */
   }
   #about-me h1 {
     font-size: 8vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -774,7 +769,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 3.5vw;
   }
   .about-me-box {
@@ -795,11 +790,11 @@
   }
   .know-me h3 {
     font-size: 6vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
   .know-me p {
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 4vw;
     margin-bottom: 18px;
     line-height: 1.5;
@@ -810,7 +805,7 @@
   .skill {
     display: inline-flex;
     padding: 10px 30px;
-    background-color: #ecf39e;
+    /* background-color: #ecf39e; */
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
@@ -824,7 +819,7 @@
   }
   .my-skill h3 {
     font-size: 6vw;
-    color: #132a13;
+    /* color: #132a13; */
     margin-bottom: 30px;
   }
 
@@ -836,7 +831,7 @@
 
   #projects h1 {
     font-size: 8vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -851,7 +846,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 3.5vw;
   }
   .project-box {
@@ -886,7 +881,7 @@
   }
   .project-details h3 {
     font-size: 6vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
     font-weight: 500;
   }
   .project-details p {
@@ -894,7 +889,7 @@
     font-weight: 300;
     line-height: 1.3;
     margin-top: 15px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 
   /* ---------------------------------------------------------------------------------------- */
@@ -905,7 +900,7 @@
 
   #contact h1 {
     font-size: 8vw;
-    color: #132a13;
+    /* color: #132a13; */
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     position: relative;
@@ -916,7 +911,7 @@
     margin-inline: auto;
     line-height: 1.3;
     margin-top: 20px;
-    color: #132a13;
+    /* color: #132a13; */
     font-size: 3.5vw;
   }
   .form {
@@ -926,7 +921,7 @@
     /* border: 1px solid red; */
     text-align: left;
     padding: 20px 40px;
-    background-color: #52796f;
+    /* background-color: #52796f; */
     border-radius: 10px;
   }
 
@@ -951,19 +946,19 @@
 
   .intro h2 {
     font-size: 6vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .intro p {
     font-size: 3vw;
     font-weight: 200;
     line-height: 1.3;
     margin-top: 20px;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .social-links {
     width: 80%;
     font-size: 5vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
   .links-box {
     margin-top: 20px;
@@ -975,6 +970,6 @@
   #footer > p {
     margin-top: 50px;
     font-size: 3vw;
-    color: #ecf39e;
+    /* color: #ecf39e; */
   }
 }
